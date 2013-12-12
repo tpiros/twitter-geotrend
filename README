@@ -1,8 +1,8 @@
-# Twitter - GeoTrend
+#Twitter - GeoTrend
 
 A simple app to gather the latest trends from a given city.
 
-## Setup instructions
+##Setup instructions
 
 <code>git clone https://github.com/tamaspiros/twitter-geotrend.git</code> to desired location
 <code>npm install && bower install</code>
