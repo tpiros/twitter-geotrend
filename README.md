@@ -4,13 +4,14 @@ A simple app to gather the latest trends from a given city.
 
 ##Setup instructions
 
-<code>git clone https://github.com/tamaspiros/twitter-geotrend.git</code> to desired location
+<code>git clone https://github.com/tamaspiros/twitter-geotrend.git</code> to desired location and then:
+
 <code>npm install && bower install</code>
 
 Edit <code>app.js</code> file and modify the following part of the code with your own IP address/hostname:
 
 <pre>
-server.listen(3000, "<YOUR-IP-HERE>",  function(){
+server.listen(3000, "YOUR-IP-HERE",  function(){
   console.log("Express server up and running.");
 });
 </pre>
