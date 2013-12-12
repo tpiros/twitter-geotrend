@@ -15,7 +15,6 @@ app.configure(function() {
   app.use('/components', express.static(__dirname + '/components'));
   app.use('/js', express.static(__dirname + '/js'));
   app.use(app.router);
-  app.set('views', __dirname + '/views');
   app.engine('html', require('ejs').renderFile);
 });
 server.listen(3000, "192.168.56.102",  function(){
