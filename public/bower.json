@@ -1,9 +1,0 @@
-{
-    "name":  "Twitter GeoTrend",
-    "version": "0.0.1",
-    "dependencies": {
-        "bootstrap": "latest",
-        "angular": "1.2.4"
-    },
-    "directory": "components"
-}
