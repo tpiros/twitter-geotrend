@@ -1,0 +1,28 @@
+{
+  "name": "GeoTrend",
+  "version": "0.0.0",
+  "description": "Lookup Twitter trends based on locations",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "twit": "latest",
+    "express": "latest",
+    "nodemon": "latest",
+    "ejs": "latest"
+  },
+  "scripts": {
+    "start": "NODE_PATH=./app/controllers NODE_ENV=development ./node_modules/.bin/nodemon app.js"
+  },
+  "author": "Tamas Piros",
+  "license": "free",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tamaspiros/twitter-geotrend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tamaspiros/twitter-geotrend/issues"
+  },
+  "homepage": "https://github.com/tamaspiros/twitter-geotrend"
+}
