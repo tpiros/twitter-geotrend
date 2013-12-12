@@ -3,8 +3,6 @@ Twitter API integration
 */
 var Twit = require('twit'),
 config = require('../config'),
-events = require('events'),
-eventEmitter = new events.EventEmitter(),
 T = new Twit(config);
 
 exports.trends = function(req, res) {

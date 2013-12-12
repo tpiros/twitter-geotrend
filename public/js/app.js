@@ -5,8 +5,6 @@ angular.module('twitter-geotrend',['geolocation'])
     $scope.error = 0;
     $scope.detected = false;
     geolocation.getLocation().then(function(data) {
-      //make call to yahoo:
-      //http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20geo.placefinder%20where%20text%3D%2238.96%2C-77.38%22%20and%20gflags%3D%22R%22&format=json
       $http.get('http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20geo.placefinder%20where%20text%3D%22'+data.coords.latitude+'%2C'+data.coords.longitude+'%22%20and%20gflags%3D%22R%22&format=json').success(function(data) {
             $scope.city = data.query.results.Result.city
             $scope.detected = true;
