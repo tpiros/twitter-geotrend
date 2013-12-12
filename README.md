@@ -27,3 +27,5 @@ module.exports = {
 </pre>
 
 Execute <code>npm start</code> and then navigate to your IP/hostname on port 3000 with a browser.
+
+More info: <a href="http://tamas.io/twitter-geotrending-app-using-node-js-and-angularjs/" target="_blank">tamas.io/twitter-geotrending-app-using-node-js-and-angularjs/</a>
