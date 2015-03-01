@@ -10,7 +10,9 @@
     "twit": "latest",
     "express": "latest",
     "nodemon": "latest",
-    "ejs": "latest"
+    "ejs": "latest",
+    "body-parser": "latest",
+    "method-override": "latest"
   },
   "scripts": {
     "start": "NODE_PATH=./app/controllers NODE_ENV=development ./node_modules/.bin/nodemon app.js"
